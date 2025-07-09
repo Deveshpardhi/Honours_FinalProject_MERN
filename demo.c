@@ -20,7 +20,7 @@ int main()
     //Taking each student detail as input
     printf("Enter %d students Details \n \n",n);
     for( i=0; i<n; i++){
-        printf("Student %d:- \n",i+1);
+        printf("Students %d:- \n",i+1);
 
 
         printf("Name: ");
