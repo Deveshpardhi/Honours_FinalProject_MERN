@@ -6,7 +6,7 @@ def retrieve_place_id(location):
     service_url = "http://py4e-data.dr-chuck.net/json?"
     parameters = {
         'address': location,
-        'key': '42'  # Replace '42' with your own key if you have one, or leave it as is for the autograder.
+        'key': '42'  # Replace '42' with your own key if you hamve one, or leave it as is for the autograder.
     }
     url = service_url + urllib.parse.urlencode(parameters)
 
