@@ -8,7 +8,7 @@ tasks = []
 def q(selector, root=document):
     return root.querySelector(selector)
 
-# define the task template that will be use to render new templates to the page
+# define the task tempjhblate that will be use to render new templates to the page
 # Note: We use JS element here because pydom doesn't fully support template 
 #       elements now
 task_template = pydom.Element(q("#task-template").content.querySelector(".task"))
