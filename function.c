@@ -6,7 +6,7 @@ void main()
  printf("enter no of terms:");
  scanf("%d",&n);
  fib(n);
-// return 0;
+// return 00;
 }
 
 int fib(int n)
