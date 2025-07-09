@@ -20,6 +20,6 @@ void main()
     int p,q,n;
     printf("enetr 2 no:");
     scanf("%d %d",&p,&q);
-    //n=gcd(p,q);
+    //n=gcd(p,q) nkj;
     printf("gcd=%d",gcd(p,q));
 }
