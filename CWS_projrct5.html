@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator(java scritp)
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+       <center> <h1>Calculator</h1></center>
+       </header>
+       <center>
+        <div class="calculator">
+            <div class="display">
+              <input type="text" id="result" readonly>
+            </div>
+            <div class="buttons">
+              <button class="clear" onclick="clearResult()">Clear</button>
+              <button class="operator" onclick="addToResult('%')">%</button>
+              <button class="toggle-sign" onclick="toggleSign()">+/-</button>
+              <button class="operator" onclick="addToResult('+')">+</button>
+              <button class="operator" onclick="addToResult('-')">-</button>
+              <button class="operator" onclick="addToResult('*')">*</button>
+              <button class="operator" onclick="addToResult('/')">/</button>
+              <button class="equal" onclick="calculate()">=</button>
+              <button onclick="addToResult('7')">7</button>
+              <button onclick="addToResult('8')">8</button>
+              <button onclick="addToResult('9')">9</button>
+              <button class="clear1" onclick="clearResult()">AC</button>
+              <button onclick="addToResult('4')">4</button>
+              <button onclick="addToResult('5')">5</button>
+              <button onclick="addToResult('6')">6</button>
+              <button onclick="addToResult('1')">1</button>
+              <button onclick="addToResult('2')">2</button>
+              <button onclick="addToResult('3')">3</button>
+              <button class="zero" onclick="addToResult('0')">0</button>
+              <button onclick="addToResult('.')">.</button>
+            </div>
+          </div>
+           
+       </center>   
+       <script src="script.js"></script>
+    </body>
+</html>
