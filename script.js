@@ -13,7 +13,7 @@ function addToResult(value)
 
 function updateDisplay() 
 {
-  document.getElementById("result").value = result;
+  document.getElementById("results").value = result;
 }
 
 function calculate() 
