@@ -13,7 +13,7 @@ int main()
     int n=3, i, j;
    
 
-    //array to store structure values of all students
+    //array to store structure valuebbs of all students
      struct student stud[n],temp;
  
     //Taking each student detail as input
