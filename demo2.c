@@ -11,7 +11,7 @@ void display(struct  strADT *s){
 
     for (int i = 0; i < s->l; i++)
     {
-        printf("Elements :%d \n",s->arr[i]);
+        printf("Elementss :%d \n",s->arr[i]);
     }
     
 }
