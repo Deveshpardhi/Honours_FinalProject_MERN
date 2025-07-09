@@ -11,7 +11,7 @@ void swap(int* xp, int* yp)
  
 int main(){ 
     int n; 
-    printf("Enter the number of processes: "); 
+    printf("Enter the number of processes : "); 
     scanf("%d",&n); 
      
     int at[n], bt[n], p[n], wt[n], ta[n]; 
