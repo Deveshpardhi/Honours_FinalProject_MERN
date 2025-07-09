@@ -6,7 +6,7 @@ int main(){
 
      printf("age is %d \n",age);
      printf("PI is %f \n",PI);
-     printf("star is %c \n",star);
+     printf("stabr is %c \n",star);
 
     return 0;
 }
