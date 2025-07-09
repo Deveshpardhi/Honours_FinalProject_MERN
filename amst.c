@@ -11,7 +11,7 @@ int main(){
             n=n/10;
         }
          if (sum==x)
-             printf("amstrom");
+             printf("amstrom vwf");
          else
               printf("not amstrom");
 
