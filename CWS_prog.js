@@ -36,7 +36,7 @@ function clearResult() {
 }
 
 function toggleSign() {
-  result = (parseFloat(result) * -1).toString();
-  updateDisplay();
+  // result = (parseFloat(result) * -1).toString();
+  // updateDisplay();cwdfw
 }
 
