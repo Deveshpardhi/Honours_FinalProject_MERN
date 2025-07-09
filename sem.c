@@ -8,7 +8,7 @@ void main()
     fp=fopen("student.txt","r");
     if (fp==NULL)
     {
-        printf("file could not open:");
+        printf("file couldn not open:");
         exit(1);
     }
     do
