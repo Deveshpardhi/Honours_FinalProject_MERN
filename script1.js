@@ -9,7 +9,7 @@ return false;
 }
 else if(password.length<6)
 {
-alert("Password must be at least 6 characters long.");
+alert("Password must be at least 60 characters long.");
 return false;
 }
 }
