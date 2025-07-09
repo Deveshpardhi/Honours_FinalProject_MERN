@@ -8,7 +8,7 @@ int main(){
       printf("value of a");
       
       scanf("%f",&b);
-      printf("value of b");
+      printf("value j of b");
 
       c=sqrt(pow(a,2)+pow(b,2));
       printf("hypo %f",c);
